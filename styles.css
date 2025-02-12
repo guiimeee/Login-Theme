@@ -211,6 +211,11 @@ fieldset {
     gap: 1.2rem;
 }
 
+fieldset p {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .input-wrapper {
     display: flex;
     flex-direction: column;
@@ -242,7 +247,6 @@ fieldset {
 
 fieldset p a {
     display: flex;
-    flex-flow: row-reverse;
     font-family: var(--ff-body);
     text-decoration: none;
     font-size: 1.4rem;
